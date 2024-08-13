@@ -14,7 +14,7 @@ Run `pip install -r requirements.txt`
 
 ensure OpenQM / Director server is running
 
-now run `python -m uvicorn main:app --reload --port 8000`
+now run `python -m uvicorn main:app --reload --port 8000` or `uvicorn main:app --host 0.0.0.0 --port $PORT` for accross network
 
 navigate to `http://LocalHost:8000/docs`
 
